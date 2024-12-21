@@ -1,5 +1,9 @@
 const app = require('./src/app')
 const http = require('http')
+const connect = require('./src/db/db')
+
+connect();
+
 
 const server = http.createServer(app);
 
