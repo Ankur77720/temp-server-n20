@@ -1,0 +1,20 @@
+{
+  "name": "n20-production-setup",
+  "version": "1.0.0",
+  "description": "in this project we learn how to setup production code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "production",
+    "server"
+  ],
+  "author": "n20",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2"
+  }
+}
